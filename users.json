@@ -1,0 +1,37 @@
+[
+    {
+        "userName": "forrestbob", 
+        "lastName": "Wong", 
+        "password": "sdrawkcab", 
+        "id": "1", 
+        "firstName": "Forrest"
+    }, 
+    {
+        "userName": "doitforjay", 
+        "lastName": "Brooks", 
+        "password": "thisismypassword", 
+        "id": "2", 
+        "firstName": "Jajuan"
+    }, 
+    {
+        "userName": "jej123", 
+        "lastName": "Jackson", 
+        "password": "scuL2Gx2", 
+        "id": "3", 
+        "firstName": "James"
+    }, 
+    {
+        "userName": "justaddSVLT", 
+        "lastName": "Chen", 
+        "password": "MedicalFish", 
+        "id": "4", 
+        "firstName": "Lawrence"
+    }, 
+    {
+        "userName": "therealchrispratt", 
+        "lastName": "Pratt", 
+        "password": "starlord1234", 
+        "id": "5", 
+        "firstName": "Chris"
+    }
+]
