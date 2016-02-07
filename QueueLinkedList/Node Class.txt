@@ -1,0 +1,12 @@
+class Node<T:NSObject> {
+    var value: T? = nil
+    var next: Node<T>? = nil
+    var prev: Node<T>? = nil
+    
+    init() {
+    }
+    
+    init(value: T) {
+        self.value = value
+    }
+}
