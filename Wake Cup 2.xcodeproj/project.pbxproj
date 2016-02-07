@@ -17,6 +17,12 @@
 		55088D6E1C6606D6004CCB33 /* wakecup_login_final.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55088D6D1C6606D6004CCB33 /* wakecup_login_final.jpg */; };
 		55088D701C660921004CCB33 /* login_final.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55088D6F1C660921004CCB33 /* login_final.jpg */; };
 		55088D721C663277004CCB33 /* login_layout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55088D711C663277004CCB33 /* login_layout.jpg */; };
+		550C7BC81C66423100EF69BA /* mainpage_layout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BC71C66423100EF69BA /* mainpage_layout.jpg */; };
+		550C7BCC1C664ADF00EF69BA /* ViewControlerMainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550C7BCB1C664ADF00EF69BA /* ViewControlerMainPage.swift */; };
+		550C7BD01C66686600EF69BA /* wakeandcup.png in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BCF1C66686600EF69BA /* wakeandcup.png */; };
+		550C7BD21C666FD000EF69BA /* wakeandcup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 550C7BD11C666FD000EF69BA /* wakeandcup.jpg */; };
+		550C7BD41C66800D00EF69BA /* CreateAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550C7BD31C66800D00EF69BA /* CreateAlarmViewController.swift */; };
+		550C7BD61C66810600EF69BA /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550C7BD51C66810600EF69BA /* SuccessViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		55088D6D1C6606D6004CCB33 /* wakecup_login_final.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wakecup_login_final.jpg; sourceTree = "<group>"; };
 		55088D6F1C660921004CCB33 /* login_final.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_final.jpg; sourceTree = "<group>"; };
 		55088D711C663277004CCB33 /* login_layout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_layout.jpg; sourceTree = "<group>"; };
+		550C7BC71C66423100EF69BA /* mainpage_layout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainpage_layout.jpg; sourceTree = "<group>"; };
+		550C7BCB1C664ADF00EF69BA /* ViewControlerMainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControlerMainPage.swift; path = ../ViewControlerMainPage.swift; sourceTree = "<group>"; };
+		550C7BCF1C66686600EF69BA /* wakeandcup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wakeandcup.png; sourceTree = "<group>"; };
+		550C7BD11C666FD000EF69BA /* wakeandcup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wakeandcup.jpg; sourceTree = "<group>"; };
+		550C7BD31C66800D00EF69BA /* CreateAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAlarmViewController.swift; sourceTree = "<group>"; };
+		550C7BD51C66810600EF69BA /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +60,7 @@
 		55088D4B1C65F17B004CCB33 = {
 			isa = PBXGroup;
 			children = (
+				550C7BD31C66800D00EF69BA /* CreateAlarmViewController.swift */,
 				55088D561C65F17B004CCB33 /* Wake Cup 2 */,
 				55088D551C65F17B004CCB33 /* Products */,
 			);
@@ -66,9 +79,14 @@
 			children = (
 				55088D571C65F17B004CCB33 /* AppDelegate.swift */,
 				55088D591C65F17B004CCB33 /* ViewController.swift */,
+				550C7BCB1C664ADF00EF69BA /* ViewControlerMainPage.swift */,
 				55088D5B1C65F17B004CCB33 /* Main.storyboard */,
 				55088D6D1C6606D6004CCB33 /* wakecup_login_final.jpg */,
+				550C7BD51C66810600EF69BA /* SuccessViewController.swift */,
+				550C7BCF1C66686600EF69BA /* wakeandcup.png */,
 				55088D6F1C660921004CCB33 /* login_final.jpg */,
+				550C7BD11C666FD000EF69BA /* wakeandcup.jpg */,
+				550C7BC71C66423100EF69BA /* mainpage_layout.jpg */,
 				55088D5E1C65F17B004CCB33 /* Assets.xcassets */,
 				55088D711C663277004CCB33 /* login_layout.jpg */,
 				55088D601C65F17B004CCB33 /* LaunchScreen.storyboard */,
@@ -137,14 +155,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550C7BD01C66686600EF69BA /* wakeandcup.png in Resources */,
 				55088D621C65F17B004CCB33 /* LaunchScreen.storyboard in Resources */,
 				55088D701C660921004CCB33 /* login_final.jpg in Resources */,
 				55088D6C1C65F19C004CCB33 /* login_bg.jpg in Resources */,
+				550C7BC81C66423100EF69BA /* mainpage_layout.jpg in Resources */,
 				55088D6B1C65F19C004CCB33 /* alarm_layout.jpg in Resources */,
 				55088D5F1C65F17B004CCB33 /* Assets.xcassets in Resources */,
 				55088D721C663277004CCB33 /* login_layout.jpg in Resources */,
 				55088D5D1C65F17B004CCB33 /* Main.storyboard in Resources */,
 				55088D6E1C6606D6004CCB33 /* wakecup_login_final.jpg in Resources */,
+				550C7BD21C666FD000EF69BA /* wakeandcup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +178,9 @@
 			files = (
 				55088D5A1C65F17B004CCB33 /* ViewController.swift in Sources */,
 				55088D581C65F17B004CCB33 /* AppDelegate.swift in Sources */,
+				550C7BD41C66800D00EF69BA /* CreateAlarmViewController.swift in Sources */,
+				550C7BD61C66810600EF69BA /* SuccessViewController.swift in Sources */,
+				550C7BCC1C664ADF00EF69BA /* ViewControlerMainPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
